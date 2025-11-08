@@ -65,12 +65,6 @@ export default function Home() {
             <img src="/images/r4.mp4" alt="Reel 4" className="h-full w-full object-cover" loading="lazy" decoding="async" />
             </div>
         </div>
-
-        <div className="mt-8 text-xs text-gray-500 space-y-1">
-          <p>Put image files in <code>public/images</code> and videos in <code>public/videos</code>.</p>
-          <p>Replace a tile’s placeholder with: {'<img src="/images/file.jpg" alt="desc" className="h-full w-full object-cover" />'}</p>
-          <p>For reels, use: {'<video className="h-full w-full object-cover" controls playsInline><source src="/videos/reel.mp4" type="video/mp4" /></video>'}</p>
-        </div>
       </Section>
     </main>
   )
